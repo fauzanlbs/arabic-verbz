@@ -234,8 +234,8 @@ export const verbs = [
       },
       amr: {
         khitob: {
-          mudzakkar: ['اُدْعُ', 'اُدْعُوَا', 'اُدْعُوا'],
-          muannats: ['اُدْعِي', 'اُدْعُوَا', 'اُدْعُونَ']
+          mudzakkar: ['اُدْعُ', 'اِدْعُوَا', 'اِدْعُوا'],
+          muannats: ['اِدْعِي', 'اِدْعُوَا', 'اِدْعُونَ']
         }
       }
     }
@@ -387,20 +387,21 @@ export const verbs = [
     }
   },
   {
-    id: 'akala',
+    id: 'akala_mahmuz',
     word: 'أَكَلَ',
     type: 'sahih',
+    subtype: 'mahmuz',
     meaning: 'makan',
     meaning_en: 'to eat',
-    frequency: 75,
+    frequency: 85,
     examples: [
       {
         arabic: 'أَكَلَ الوَلَدُ التُّفَّاحَةَ',
         translation: 'Anak itu makan apel'
       },
       {
-        arabic: 'هَلْ أَكَلْتَ الفَطُوْرَ؟',
-        translation: 'Apakah kamu sudah makan sarapan?'
+        arabic: 'مَاذَا أَكَلْتَ اليَوْمَ؟',
+        translation: 'Apa yang kamu makan hari ini?'
       }
     ],
     tasrif: {
@@ -866,8 +867,8 @@ export const verbs = [
       },
       amr: {
         khitob: {
-          mudzakkar: ['اُرْجُ', 'اُرْجُوَا', 'اُرْجُوْا'],
-          muannats: ['اُرْجِي', 'اُرْجُوَا', 'اُرْجُوْنَ']
+          mudzakkar: ['اِرْجُ', 'اِرْجُوَا', 'اِرْجُوْا'],
+          muannats: ['اِرْجِي', 'اِرْجُوَا', 'اِرْجُوْنَ']
         }
       }
     }
@@ -966,6 +967,202 @@ export const verbs = [
         khitob: {
           mudzakkar: ['اِبْكِ', 'اِبْكِيَا', 'اِبْكُوْا'],
           muannats: ['اِبْكِي', 'اِبْكِيَا', 'اِبْكِيْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'madda',
+    word: 'مَدَّ',
+    type: 'sahih',
+    subtype: 'mudoaf',
+    meaning: 'memanjangkan',
+    meaning_en: 'to extend',
+    frequency: 75,
+    examples: [
+      {
+        arabic: 'مَدَّ الرَّجُلُ يَدَهُ',
+        translation: 'Pria itu mengulurkan tangannya'
+      },
+      {
+        arabic: 'مَدَّ اللهُ فِي عُمْرِهِ',
+        translation: 'Allah memanjangkan umurnya'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['مَدَّ', 'مَدَّا', 'مَدُّوْا'],
+          muannats: ['مَدَّتْ', 'مَدَّتَا', 'مَدَدْنَ']
+        },
+        khitob: {
+          mudzakkar: ['مَدَدْتَ', 'مَدَدْتُمَا', 'مَدَدْتُمْ'],
+          muannats: ['مَدَدْتِ', 'مَدَدْتُمَا', 'مَدَدْتُنَّ']
+        },
+        takallum: ['مَدَدْتُ', 'مَدَدْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَمُدُّ', 'يَمُدَّانِ', 'يَمُدُّوْنَ'],
+          muannats: ['تَمُدُّ', 'تَمُدَّانِ', 'يَمْدُدْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَمُدُّ', 'تَمُدَّانِ', 'تَمُدُّوْنَ'],
+          muannats: ['تَمُدِّيْنَ', 'تَمُدَّانِ', 'تَمْدُدْنَ']
+        },
+        takallum: ['أَمُدُّ', 'نَمُدُّ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['مُدَّ', 'مُدَّا', 'مُدُّوْا'],
+          muannats: ['مُدِّي', 'مُدَّا', 'اُمْدُدْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'saala',
+    word: 'سَأَلَ',
+    type: 'sahih',
+    subtype: 'mahmuz',
+    meaning: 'bertanya',
+    meaning_en: 'to ask',
+    frequency: 80,
+    examples: [
+      {
+        arabic: 'سَأَلَ الطَّالِبُ المُدَرِّسَ',
+        translation: 'Siswa bertanya kepada guru'
+      },
+      {
+        arabic: 'لِمَاذَا سَأَلْتَ هَذَا السُّؤَالَ؟',
+        translation: 'Kenapa kamu menanyakan pertanyaan ini?'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['سَأَلَ', 'سَأَلاَ', 'سَأَلُوْا'],
+          muannats: ['سَأَلَتْ', 'سَأَلَتَا', 'سَأَلْنَ']
+        },
+        khitob: {
+          mudzakkar: ['سَأَلْتَ', 'سَأَلْتُمَا', 'سَأَلْتُمْ'],
+          muannats: ['سَأَلْتِ', 'سَأَلْتُمَا', 'سَأَلْتُنَّ']
+        },
+        takallum: ['سَأَلْتُ', 'سَأَلْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَسْأَلُ', 'يَسْأَلاَنِ', 'يَسْأَلُوْنَ'],
+          muannats: ['تَسْأَلُ', 'تَسْأَلاَنِ', 'يَسْأَلْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَسْأَلُ', 'تَسْأَلاَنِ', 'تَسْأَلُوْنَ'],
+          muannats: ['تَسْأَلِيْنَ', 'تَسْأَلاَنِ', 'تَسْأَلْنَ']
+        },
+        takallum: ['أَسْأَلُ', 'نَسْأَلُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اِسْأَلْ', 'اِسْأَلاَ', 'اِسْأَلُوْا'],
+          muannats: ['اِسْأَلِي', 'اِسْأَلاَ', 'اِسْأَلْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'dhanna',
+    word: 'ظَنَّ',
+    type: 'sahih',
+    subtype: 'mudoaf',
+    meaning: 'menduga',
+    meaning_en: 'to think, to assume',
+    frequency: 80,
+    examples: [
+      {
+        arabic: 'ظَنَّ المُدَرِّسُ الطَّالِبَ نَاجِحًا',
+        translation: 'Guru menduga siswa itu lulus'
+      },
+      {
+        arabic: 'مَاذَا ظَنَنْتَ فِي هَذَا الأَمْرِ؟',
+        translation: 'Apa dugaanmu tentang masalah ini?'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['ظَنَّ', 'ظَنَّا', 'ظَنُّوْا'],
+          muannats: ['ظَنَّتْ', 'ظَنَّتَا', 'ظَنَنَّ']
+        },
+        khitob: {
+          mudzakkar: ['ظَنَنْتَ', 'ظَنَنْتُمَا', 'ظَنَنْتُمْ'],
+          muannats: ['ظَنَنْتِ', 'ظَنَنْتُمَا', 'ظَنَنْتُنَّ']
+        },
+        takallum: ['ظَنَنْتُ', 'ظَنَنَّا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَظُنُّ', 'يَظُنَّانِ', 'يَظُنُّوْنَ'],
+          muannats: ['تَظُنُّ', 'تَظُنَّانِ', 'يَظْنُنَّ']
+        },
+        khitob: {
+          mudzakkar: ['تَظُنُّ', 'تَظُنَّانِ', 'تَظُنُّوْنَ'],
+          muannats: ['تَظُنِّيْنَ', 'تَظُنَّانِ', 'تَظْنُنَّ']
+        },
+        takallum: ['أَظُنُّ', 'نَظُنُّ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['ظُنَّ', 'ظُنَّا', 'ظُنُّوْا'],
+          muannats: ['ظُنِّي', 'ظُنَّا', 'اُظْنُنَّ']
+        }
+      }
+    }
+  },
+  {
+    id: 'radda',
+    word: 'رَدَّ',
+    type: 'sahih',
+    subtype: 'mudoaf',
+    meaning: 'mengembalikan',
+    meaning_en: 'to return, to reply',
+    frequency: 75,
+    examples: [
+      {
+        arabic: 'رَدَّ الطَّالِبُ الكِتَابَ إِلَى المَكْتَبَةِ',
+        translation: 'Siswa mengembalikan buku ke perpustakaan'
+      },
+      {
+        arabic: 'رَدَّ عَلَى السُّؤَالِ',
+        translation: 'Dia menjawab pertanyaan'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['رَدَّ', 'رَدَّا', 'رَدُّوْا'],
+          muannats: ['رَدَّتْ', 'رَدَّتَا', 'رَدَدْنَ']
+        },
+        khitob: {
+          mudzakkar: ['رَدَدْتَ', 'رَدَدْتُمَا', 'رَدَدْتُمْ'],
+          muannats: ['رَدَدْتِ', 'رَدَدْتُمَا', 'رَدَدْتُنَّ']
+        },
+        takallum: ['رَدَدْتُ', 'رَدَدْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَرُدُّ', 'يَرُدَّانِ', 'يَرُدُّوْنَ'],
+          muannats: ['تَرُدُّ', 'تَرُدَّانِ', 'يَرْدُدْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَرُدُّ', 'تَرُدَّانِ', 'تَرُدُّوْنَ'],
+          muannats: ['تَرُدِّيْنَ', 'تَرُدَّانِ', 'تَرْدُدْنَ']
+        },
+        takallum: ['أَرُدُّ', 'نَرُدُّ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['رُدَّ', 'رُدَّا', 'رُدُّوْا'],
+          muannats: ['رُدِّي', 'رُدَّا', 'اُرْدُدْنَ']
         }
       }
     }
