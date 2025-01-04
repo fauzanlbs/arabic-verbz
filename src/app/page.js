@@ -38,7 +38,7 @@ export default function Home() {
                   : 'text-[#FFD700] hover:bg-[#706F6F]'
               } transition-colors`}
             >
-              MU'TAL
+              MU&apos;TAL
             </button>
           </div>
         </div>
