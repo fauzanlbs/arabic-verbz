@@ -577,5 +577,397 @@ export const verbs = [
         }
       }
     }
+  },
+  {
+    id: 'wasala',
+    word: 'وَصَلَ',
+    type: 'mutal',
+    subtype: 'mitsal_wawi',
+    meaning: 'sampai, tiba',
+    meaning_en: 'to arrive',
+    frequency: 75,
+    examples: [
+      {
+        arabic: 'وَصَلَ المُسَافِرُ إِلَى المَطَارِ',
+        translation: 'Musafir itu tiba di bandara'
+      },
+      {
+        arabic: 'مَتَى وَصَلْتَ إِلَى البَيْتِ؟',
+        translation: 'Kapan kamu sampai di rumah?'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['وَصَلَ', 'وَصَلاَ', 'وَصَلُوْا'],
+          muannats: ['وَصَلَتْ', 'وَصَلَتَا', 'وَصَلْنَ']
+        },
+        khitob: {
+          mudzakkar: ['وَصَلْتَ', 'وَصَلْتُمَا', 'وَصَلْتُمْ'],
+          muannats: ['وَصَلْتِ', 'وَصَلْتُمَا', 'وَصَلْتُنَّ']
+        },
+        takallum: ['وَصَلْتُ', 'وَصَلْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَصِلُ', 'يَصِلاَنِ', 'يَصِلُوْنَ'],
+          muannats: ['تَصِلُ', 'تَصِلاَنِ', 'يَصِلْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَصِلُ', 'تَصِلاَنِ', 'تَصِلُوْنَ'],
+          muannats: ['تَصِلِيْنَ', 'تَصِلاَنِ', 'تَصِلْنَ']
+        },
+        takallum: ['أَصِلُ', 'نَصِلُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['صِلْ', 'صِلاَ', 'صِلُوْا'],
+          muannats: ['صِلِي', 'صِلاَ', 'صِلْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'wadhaa',
+    word: 'وَضَعَ',
+    type: 'mutal',
+    subtype: 'mitsal_wawi',
+    meaning: 'meletakkan',
+    meaning_en: 'to put',
+    frequency: 70,
+    examples: [
+      {
+        arabic: 'وَضَعَ الكِتَابَ عَلَى المَكْتَبِ',
+        translation: 'Dia meletakkan buku di atas meja'
+      },
+      {
+        arabic: 'أَيْنَ وَضَعْتَ مِفْتَاحَكَ؟',
+        translation: 'Di mana kamu meletakkan kuncimu?'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['وَضَعَ', 'وَضَعَا', 'وَضَعُوْا'],
+          muannats: ['وَضَعَتْ', 'وَضَعَتَا', 'وَضَعْنَ']
+        },
+        khitob: {
+          mudzakkar: ['وَضَعْتَ', 'وَضَعْتُمَا', 'وَضَعْتُمْ'],
+          muannats: ['وَضَعْتِ', 'وَضَعْتُمَا', 'وَضَعْتُنَّ']
+        },
+        takallum: ['وَضَعْتُ', 'وَضَعْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَضَعُ', 'يَضَعَانِ', 'يَضَعُوْنَ'],
+          muannats: ['تَضَعُ', 'تَضَعَانِ', 'يَضَعْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَضَعُ', 'تَضَعَانِ', 'تَضَعُوْنَ'],
+          muannats: ['تَضَعِيْنَ', 'تَضَعَانِ', 'تَضَعْنَ']
+        },
+        takallum: ['أَضَعُ', 'نَضَعُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['ضَعْ', 'ضَعَا', 'ضَعُوْا'],
+          muannats: ['ضَعِي', 'ضَعَا', 'ضَعْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'yasara',
+    word: 'يَسَرَ',
+    type: 'mutal',
+    subtype: 'mitsal_yai',
+    meaning: 'mudah',
+    meaning_en: 'to be easy',
+    frequency: 65,
+    examples: [
+      {
+        arabic: 'يَسَرَ اللهُ الأَمْرَ',
+        translation: 'Allah memudahkan perkara itu'
+      },
+      {
+        arabic: 'يَسَرَ عَلَيْهِ العَمَلُ',
+        translation: 'Pekerjaan itu mudah baginya'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['يَسَرَ', 'يَسَرَا', 'يَسَرُوْا'],
+          muannats: ['يَسَرَتْ', 'يَسَرَتَا', 'يَسَرْنَ']
+        },
+        khitob: {
+          mudzakkar: ['يَسَرْتَ', 'يَسَرْتُمَا', 'يَسَرْتُمْ'],
+          muannats: ['يَسَرْتِ', 'يَسَرْتُمَا', 'يَسَرْتُنَّ']
+        },
+        takallum: ['يَسَرْتُ', 'يَسَرْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَيْسِرُ', 'يَيْسِرَانِ', 'يَيْسِرُوْنَ'],
+          muannats: ['تَيْسِرُ', 'تَيْسِرَانِ', 'يَيْسِرْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَيْسِرُ', 'تَيْسِرَانِ', 'تَيْسِرُوْنَ'],
+          muannats: ['تَيْسِرِيْنَ', 'تَيْسِرَانِ', 'تَيْسِرْنَ']
+        },
+        takallum: ['أَيْسِرُ', 'نَيْسِرُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اِيْسِرْ', 'اِيْسِرَا', 'اِيْسِرُوْا'],
+          muannats: ['اِيْسِرِي', 'اِيْسِرَا', 'اِيْسِرْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'naama',
+    word: 'نَامَ',
+    type: 'mutal',
+    subtype: 'ajwaf_wawi',
+    meaning: 'tidur',
+    meaning_en: 'to sleep',
+    frequency: 75,
+    examples: [
+      {
+        arabic: 'نَامَ الطِّفْلُ فِي السَّرِيْرِ',
+        translation: 'Anak itu tidur di kasur'
+      },
+      {
+        arabic: 'مَتَى نِمْتَ البَارِحَةَ؟',
+        translation: 'Kapan kamu tidur tadi malam?'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['نَامَ', 'نَامَا', 'نَامُوْا'],
+          muannats: ['نَامَتْ', 'نَامَتَا', 'نِمْنَ']
+        },
+        khitob: {
+          mudzakkar: ['نِمْتَ', 'نِمْتُمَا', 'نِمْتُمْ'],
+          muannats: ['نِمْتِ', 'نِمْتُمَا', 'نِمْتُنَّ']
+        },
+        takallum: ['نِمْتُ', 'نِمْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَنَامُ', 'يَنَامَانِ', 'يَنَامُوْنَ'],
+          muannats: ['تَنَامُ', 'تَنَامَانِ', 'يَنَمْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَنَامُ', 'تَنَامَانِ', 'تَنَامُوْنَ'],
+          muannats: ['تَنَامِيْنَ', 'تَنَامَانِ', 'تَنَمْنَ']
+        },
+        takallum: ['أَنَامُ', 'نَنَامُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['نَمْ', 'نَامَا', 'نَامُوْا'],
+          muannats: ['نَامِي', 'نَامَا', 'نَمْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'jaa',
+    word: 'جَاءَ',
+    type: 'mutal',
+    subtype: 'ajwaf_yai',
+    meaning: 'datang',
+    meaning_en: 'to come',
+    frequency: 85,
+    examples: [
+      {
+        arabic: 'جَاءَ المُدَرِّسُ إِلَى الفَصْلِ',
+        translation: 'Guru datang ke kelas'
+      },
+      {
+        arabic: 'مَتَى جِئْتَ إِلَى المَدْرَسَةِ؟',
+        translation: 'Kapan kamu datang ke sekolah?'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['جَاءَ', 'جَاءَا', 'جَاؤُوْا'],
+          muannats: ['جَاءَتْ', 'جَاءَتَا', 'جِئْنَ']
+        },
+        khitob: {
+          mudzakkar: ['جِئْتَ', 'جِئْتُمَا', 'جِئْتُمْ'],
+          muannats: ['جِئْتِ', 'جِئْتُمَا', 'جِئْتُنَّ']
+        },
+        takallum: ['جِئْتُ', 'جِئْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَجِيْءُ', 'يَجِيْئَانِ', 'يَجِيْئُوْنَ'],
+          muannats: ['تَجِيْءُ', 'تَجِيْئَانِ', 'يَجِئْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَجِيْءُ', 'تَجِيْئَانِ', 'تَجِيْئُوْنَ'],
+          muannats: ['تَجِيْئِيْنَ', 'تَجِيْئَانِ', 'تَجِئْنَ']
+        },
+        takallum: ['أَجِيْءُ', 'نَجِيْءُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['جِئْ', 'جِيْئَا', 'جِيْئُوْا'],
+          muannats: ['جِيْئِي', 'جِيْئَا', 'جِئْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'rajaa',
+    word: 'رَجَا',
+    type: 'mutal',
+    subtype: 'naqish_wawi',
+    meaning: 'berharap',
+    meaning_en: 'to hope',
+    frequency: 70,
+    examples: [
+      {
+        arabic: 'رَجَا الطَّالِبُ النَّجَاحَ',
+        translation: 'Siswa itu berharap sukses'
+      },
+      {
+        arabic: 'رَجَوْتُ اللهَ الخَيْرَ',
+        translation: 'Saya berharap kebaikan dari Allah'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['رَجَا', 'رَجَوَا', 'رَجَوْا'],
+          muannats: ['رَجَتْ', 'رَجَتَا', 'رَجَوْنَ']
+        },
+        khitob: {
+          mudzakkar: ['رَجَوْتَ', 'رَجَوْتُمَا', 'رَجَوْتُمْ'],
+          muannats: ['رَجَوْتِ', 'رَجَوْتُمَا', 'رَجَوْتُنَّ']
+        },
+        takallum: ['رَجَوْتُ', 'رَجَوْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَرْجُو', 'يَرْجُوَانِ', 'يَرْجُوْنَ'],
+          muannats: ['تَرْجُو', 'تَرْجُوَانِ', 'يَرْجُوْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَرْجُو', 'تَرْجُوَانِ', 'تَرْجُوْنَ'],
+          muannats: ['تَرْجِيْنَ', 'تَرْجُوَانِ', 'تَرْجُوْنَ']
+        },
+        takallum: ['أَرْجُو', 'نَرْجُو']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اُرْجُ', 'اُرْجُوَا', 'اُرْجُوْا'],
+          muannats: ['اُرْجِي', 'اُرْجُوَا', 'اُرْجُوْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'mashaa',
+    word: 'مَشَى',
+    type: 'mutal',
+    subtype: 'naqish_yai',
+    meaning: 'berjalan',
+    meaning_en: 'to walk',
+    frequency: 75,
+    examples: [
+      {
+        arabic: 'مَشَى الطِّفْلُ إِلَى المَدْرَسَةِ',
+        translation: 'Anak itu berjalan ke sekolah'
+      },
+      {
+        arabic: 'مَشَيْتُ سَاعَةً',
+        translation: 'Saya berjalan selama satu jam'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['مَشَى', 'مَشَيَا', 'مَشَوْا'],
+          muannats: ['مَشَتْ', 'مَشَتَا', 'مَشَيْنَ']
+        },
+        khitob: {
+          mudzakkar: ['مَشَيْتَ', 'مَشَيْتُمَا', 'مَشَيْتُمْ'],
+          muannats: ['مَشَيْتِ', 'مَشَيْتُمَا', 'مَشَيْتُنَّ']
+        },
+        takallum: ['مَشَيْتُ', 'مَشَيْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَمْشِي', 'يَمْشِيَانِ', 'يَمْشُوْنَ'],
+          muannats: ['تَمْشِي', 'تَمْشِيَانِ', 'يَمْشِيْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَمْشِي', 'تَمْشِيَانِ', 'تَمْشُوْنَ'],
+          muannats: ['تَمْشِيْنَ', 'تَمْشِيَانِ', 'تَمْشِيْنَ']
+        },
+        takallum: ['أَمْشِي', 'نَمْشِي']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اِمْشِ', 'اِمْشِيَا', 'اِمْشُوْا'],
+          muannats: ['اِمْشِي', 'اِمْشِيَا', 'اِمْشِيْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'bakaa',
+    word: 'بَكَى',
+    type: 'mutal',
+    subtype: 'naqish_yai',
+    meaning: 'menangis',
+    meaning_en: 'to cry',
+    frequency: 65,
+    examples: [
+      {
+        arabic: 'بَكَى الطِّفْلُ مِنَ الأَلَمِ',
+        translation: 'Anak itu menangis karena sakit'
+      },
+      {
+        arabic: 'لِمَاذَا بَكَيْتَ؟',
+        translation: 'Kenapa kamu menangis?'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['بَكَى', 'بَكَيَا', 'بَكَوْا'],
+          muannats: ['بَكَتْ', 'بَكَتَا', 'بَكَيْنَ']
+        },
+        khitob: {
+          mudzakkar: ['بَكَيْتَ', 'بَكَيْتُمَا', 'بَكَيْتُمْ'],
+          muannats: ['بَكَيْتِ', 'بَكَيْتُمَا', 'بَكَيْتُنَّ']
+        },
+        takallum: ['بَكَيْتُ', 'بَكَيْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَبْكِي', 'يَبْكِيَانِ', 'يَبْكُوْنَ'],
+          muannats: ['تَبْكِي', 'تَبْكِيَانِ', 'يَبْكِيْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَبْكِي', 'تَبْكِيَانِ', 'تَبْكُوْنَ'],
+          muannats: ['تَبْكِيْنَ', 'تَبْكِيَانِ', 'تَبْكِيْنَ']
+        },
+        takallum: ['أَبْكِي', 'نَبْكِي']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اِبْكِ', 'اِبْكِيَا', 'اِبْكُوْا'],
+          muannats: ['اِبْكِي', 'اِبْكِيَا', 'اِبْكِيْنَ']
+        }
+      }
+    }
   }
 ]; 

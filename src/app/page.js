@@ -6,7 +6,7 @@ import { pressStart2P } from './fonts';
 import { useState } from 'react';
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState('sahih');
+  const [activeTab, setActiveTab] = useState('mutal');
   
   const filteredVerbs = verbs.filter(verb => verb.type === activeTab);
 
