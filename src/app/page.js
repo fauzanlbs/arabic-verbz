@@ -14,7 +14,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#383838] py-12">
       <div className="container mx-auto px-4">
         <h1 className={`${pressStart2P.className} text-center text-3xl text-[#FFD700] mb-8`}>
-          KAMUS FI'IL
+          ARABIC VERBZ
         </h1>
 
         {/* Tab Navigation */}
@@ -55,7 +55,7 @@ export default function Home() {
                   {verb.word}
                 </div>
                 <div className={`${pressStart2P.className} text-[#FFFFFF]`}>
-                  <span className="text-[#90EE90]">ARTI:</span> {verb.meaning}
+                  <span className="text-[#90EE90]">ARTI:</span> {verb.meaning} / {verb.meaning_en}
                 </div>
                 <div className={`${pressStart2P.className} mt-2 text-[#90EE90] text-sm`}>
                   Frekuensi: {verb.frequency}%

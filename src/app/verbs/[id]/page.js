@@ -77,7 +77,7 @@ export default function VerbDetail() {
             {verb.word}
           </div>
           <div className={`${pressStart2P.className} mb-4 text-[#FFFFFF]`}>
-            <span className="text-[#90EE90]">ARTI:</span> {verb.meaning}
+            <span className="text-[#90EE90]">ARTI:</span> {verb.meaning} / {verb.meaning_en}
           </div>
           <div className={`${pressStart2P.className} mb-6 text-[#FFFFFF]`}>
             <span className="text-[#90EE90]">TIPE:</span> {verb.type}

@@ -5,6 +5,7 @@ export const verbs = [
     word: 'قَالَ',
     type: 'mutal',
     meaning: 'berkata',
+    meaning_en: 'to say',
     frequency: 95,
     examples: [
       {
@@ -51,7 +52,8 @@ export const verbs = [
     id: 'kana',
     word: 'كَانَ',
     type: 'mutal',
-    meaning: 'adalah/menjadi',
+    meaning: 'adalah, menjadi',
+    meaning_en: 'to be',
     frequency: 90,
     examples: [
       {
@@ -65,17 +67,32 @@ export const verbs = [
     ],
     tasrif: {
       madhi: {
-        ghoib: ['كَانَ', 'كَانَا', 'كَانُوْا'],
-        khitob: ['كُنْتَ', 'كُنْتُمَا', 'كُنْتُمْ'],
+        ghoib: {
+          mudzakkar: ['كَانَ', 'كَانَا', 'كَانُوْا'],
+          muannats: ['كَانَتْ', 'كَانَتَا', 'كُنَّ']
+        },
+        khitob: {
+          mudzakkar: ['كُنْتَ', 'كُنْتُمَا', 'كُنْتُمْ'],
+          muannats: ['كُنْتِ', 'كُنْتُمَا', 'كُنْتُنَّ']
+        },
         takallum: ['كُنْتُ', 'كُنَّا']
       },
       mudhari: {
-        ghoib: ['يَكُوْنُ', 'يَكُوْنَانِ', 'يَكُوْنُوْنَ'],
-        khitob: ['تَكُوْنُ', 'تَكُوْنَانِ', 'تَكُوْنُوْنَ'],
+        ghoib: {
+          mudzakkar: ['يَكُوْنُ', 'يَكُوْنَانِ', 'يَكُوْنُوْنَ'],
+          muannats: ['تَكُوْنُ', 'تَكُوْنَانِ', 'يَكُنَّ']
+        },
+        khitob: {
+          mudzakkar: ['تَكُوْنُ', 'تَكُوْنَانِ', 'تَكُوْنُوْنَ'],
+          muannats: ['تَكُوْنِيْنَ', 'تَكُوْنَانِ', 'تَكُنَّ']
+        },
         takallum: ['أَكُوْنُ', 'نَكُوْنُ']
       },
       amr: {
-        khitob: ['كُنْ', 'كُوْنَا', 'كُوْنُوْا']
+        khitob: {
+          mudzakkar: ['كُنْ', 'كُوْنَا', 'كُوْنُوْا'],
+          muannats: ['كُوْنِي', 'كُوْنَا', 'كُنَّ']
+        }
       }
     }
   },
@@ -84,6 +101,7 @@ export const verbs = [
     word: 'بَاعَ',
     type: 'mutal',
     meaning: 'menjual',
+    meaning_en: 'to sell',
     frequency: 85,
     examples: [
       {
@@ -97,17 +115,32 @@ export const verbs = [
     ],
     tasrif: {
       madhi: {
-        ghoib: ['بَاعَ', 'بَاعَا', 'بَاعُوْا'],
-        khitob: ['بِعْتَ', 'بِعْتُمَا', 'بِعْتُمْ'],
+        ghoib: {
+          mudzakkar: ['بَاعَ', 'بَاعَا', 'بَاعُوْا'],
+          muannats: ['بَاعَتْ', 'بَاعَتَا', 'بِعْنَ']
+        },
+        khitob: {
+          mudzakkar: ['بِعْتَ', 'بِعْتُمَا', 'بِعْتُمْ'],
+          muannats: ['بِعْتِ', 'بِعْتُمَا', 'بِعْتُنَّ']
+        },
         takallum: ['بِعْتُ', 'بِعْنَا']
       },
       mudhari: {
-        ghoib: ['يَبِيْعُ', 'يَبِيْعَانِ', 'يَبِيْعُوْنَ'],
-        khitob: ['تَبِيْعُ', 'تَبِيْعَانِ', 'تَبِيْعُوْنَ'],
+        ghoib: {
+          mudzakkar: ['يَبِيْعُ', 'يَبِيْعَانِ', 'يَبِيْعُوْنَ'],
+          muannats: ['تَبِيْعُ', 'تَبِيْعَانِ', 'يَبِعْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَبِيْعُ', 'تَبِيْعَانِ', 'تَبِيْعُوْنَ'],
+          muannats: ['تَبِيْعِيْنَ', 'تَبِيْعَانِ', 'تَبِعْنَ']
+        },
         takallum: ['أَبِيْعُ', 'نَبِيْعُ']
       },
       amr: {
-        khitob: ['بِعْ', 'بِيْعَا', 'بِيْعُوْا']
+        khitob: {
+          mudzakkar: ['بِعْ', 'بِيْعَا', 'بِيْعُوْا'],
+          muannats: ['بِيْعِي', 'بِيْعَا', 'بِعْنَ']
+        }
       }
     }
   },
@@ -116,6 +149,7 @@ export const verbs = [
     word: 'سَارَ',
     type: 'mutal',
     meaning: 'berjalan',
+    meaning_en: 'to walk',
     frequency: 80,
     examples: [
       {
@@ -163,6 +197,7 @@ export const verbs = [
     word: 'دَعَا',
     type: 'mutal',
     meaning: 'memanggil',
+    meaning_en: 'to call',
     frequency: 75,
     examples: [
       {
@@ -210,6 +245,7 @@ export const verbs = [
     word: 'نَسِيَ',
     type: 'mutal',
     meaning: 'lupa',
+    meaning_en: 'to forget',
     frequency: 70,
     examples: [
       {
@@ -259,6 +295,7 @@ export const verbs = [
     word: 'كَتَبَ',
     type: 'sahih',
     meaning: 'menulis',
+    meaning_en: 'to write',
     frequency: 85,
     examples: [
       {
@@ -306,6 +343,7 @@ export const verbs = [
     word: 'جَلَسَ',
     type: 'sahih',
     meaning: 'duduk',
+    meaning_en: 'to sit',
     frequency: 80,
     examples: [
       {
@@ -353,6 +391,7 @@ export const verbs = [
     word: 'أَكَلَ',
     type: 'sahih',
     meaning: 'makan',
+    meaning_en: 'to eat',
     frequency: 75,
     examples: [
       {
@@ -400,6 +439,7 @@ export const verbs = [
     word: 'شَرِبَ',
     type: 'sahih',
     meaning: 'minum',
+    meaning_en: 'to drink',
     frequency: 70,
     examples: [
       {
@@ -447,6 +487,7 @@ export const verbs = [
     word: 'فَتَحَ',
     type: 'sahih',
     meaning: 'membuka',
+    meaning_en: 'to open',
     frequency: 65,
     examples: [
       {
@@ -494,6 +535,7 @@ export const verbs = [
     word: 'ضَرَبَ',
     type: 'sahih',
     meaning: 'memukul',
+    meaning_en: 'to hit',
     frequency: 60,
     examples: [
       {
