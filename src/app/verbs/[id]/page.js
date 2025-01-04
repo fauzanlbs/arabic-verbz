@@ -11,6 +11,23 @@ export default function VerbDetail() {
 
   if (!verb) return <div>Loading...</div>;
 
+  const getSubtypeLabel = (type, subtype) => {
+    if (!subtype) return type.charAt(0).toUpperCase() + type.slice(1);
+    
+    const subtypeMap = {
+      'mitsal_wawi': 'Mitsal Wawi (و)',
+      'mitsal_yai': 'Mitsal Ya\'i (ي)',
+      'ajwaf_wawi': 'Ajwaf Wawi (و)',
+      'ajwaf_yai': 'Ajwaf Ya\'i (ي)',
+      'naqish_wawi': 'Naqish Wawi (و)',
+      'naqish_yai': 'Naqish Ya\'i (ي)',
+      'mudoaf': 'Mudho\'af',
+      'salim': 'Salim'
+    };
+
+    return subtypeMap[subtype] || subtype;
+  };
+
   const renderTasrifForms = (forms) => {
     if (!forms || typeof forms !== 'object') return null;
 
@@ -80,7 +97,7 @@ export default function VerbDetail() {
             <span className="text-[#90EE90]">ARTI:</span> {verb.meaning} / {verb.meaning_en}
           </div>
           <div className={`${pressStart2P.className} mb-6 text-[#FFFFFF]`}>
-            <span className="text-[#90EE90]">TIPE:</span> {verb.type}
+            <span className="text-[#90EE90]">TIPE:</span> {getSubtypeLabel(verb.type, verb.subtype)}
           </div>
 
           <div className="mb-8 border-t-4 border-[#000000] pt-6">

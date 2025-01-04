@@ -4,6 +4,7 @@ export const verbs = [
     id: 'qala',
     word: 'قَالَ',
     type: 'mutal',
+    subtype: 'ajwaf_wawi',
     meaning: 'berkata',
     meaning_en: 'to say',
     frequency: 95,
@@ -52,6 +53,7 @@ export const verbs = [
     id: 'kana',
     word: 'كَانَ',
     type: 'mutal',
+    subtype: 'ajwaf_wawi',
     meaning: 'adalah, menjadi',
     meaning_en: 'to be',
     frequency: 90,
@@ -100,6 +102,7 @@ export const verbs = [
     id: 'baa',
     word: 'بَاعَ',
     type: 'mutal',
+    subtype: 'ajwaf_yai',
     meaning: 'menjual',
     meaning_en: 'to sell',
     frequency: 85,
@@ -148,6 +151,7 @@ export const verbs = [
     id: 'sara',
     word: 'سَارَ',
     type: 'mutal',
+    subtype: 'ajwaf_wawi',
     meaning: 'berjalan',
     meaning_en: 'to walk',
     frequency: 80,
@@ -196,6 +200,7 @@ export const verbs = [
     id: 'daa',
     word: 'دَعَا',
     type: 'mutal',
+    subtype: 'naqish_wawi',
     meaning: 'memanggil',
     meaning_en: 'to call',
     frequency: 75,
@@ -244,6 +249,7 @@ export const verbs = [
     id: 'nasa',
     word: 'نَسِيَ',
     type: 'mutal',
+    subtype: 'naqish_yai',
     meaning: 'lupa',
     meaning_en: 'to forget',
     frequency: 70,
@@ -294,6 +300,7 @@ export const verbs = [
     id: 'kataba',
     word: 'كَتَبَ',
     type: 'sahih',
+    subtype: 'salim',
     meaning: 'menulis',
     meaning_en: 'to write',
     frequency: 85,
@@ -342,6 +349,7 @@ export const verbs = [
     id: 'jalasa',
     word: 'جَلَسَ',
     type: 'sahih',
+    subtype: 'salim',
     meaning: 'duduk',
     meaning_en: 'to sit',
     frequency: 80,
@@ -390,7 +398,7 @@ export const verbs = [
     id: 'akala_mahmuz',
     word: 'أَكَلَ',
     type: 'sahih',
-    subtype: 'mahmuz',
+    subtype: 'salim',
     meaning: 'makan',
     meaning_en: 'to eat',
     frequency: 85,
@@ -439,17 +447,18 @@ export const verbs = [
     id: 'shariba',
     word: 'شَرِبَ',
     type: 'sahih',
+    subtype: 'salim',
     meaning: 'minum',
     meaning_en: 'to drink',
-    frequency: 70,
+    frequency: 85,
     examples: [
       {
-        arabic: 'شَرِبَ الطِّفْلُ الحَلِيبَ',
+        arabic: 'شَرِبَ الوَلَدُ الحَلِيبَ',
         translation: 'Anak itu minum susu'
       },
       {
-        arabic: 'هَلْ شَرِبْتَ المَاءَ؟',
-        translation: 'Apakah kamu sudah minum air?'
+        arabic: 'مَاذَا شَرِبْتَ؟',
+        translation: 'Apa yang kamu minum?'
       }
     ],
     tasrif: {
@@ -487,6 +496,7 @@ export const verbs = [
     id: 'fataha',
     word: 'فَتَحَ',
     type: 'sahih',
+    subtype: 'salim',
     meaning: 'membuka',
     meaning_en: 'to open',
     frequency: 65,
@@ -535,6 +545,7 @@ export const verbs = [
     id: 'daraba',
     word: 'ضَرَبَ',
     type: 'sahih',
+    subtype: 'salim',
     meaning: 'memukul',
     meaning_en: 'to hit',
     frequency: 60,
@@ -818,8 +829,8 @@ export const verbs = [
       },
       amr: {
         khitob: {
-          mudzakkar: ['جِئْ', 'جِيْئَا', 'جِيْئُوْا'],
-          muannats: ['جِيْئِي', 'جِيْئَا', 'جِئْنَ']
+          mudzakkar: ['اِجْئِ', 'اِجْئَا', 'اِجْئُوْا'],
+          muannats: ['اِجْئِي', 'اِجْئَا', 'اِجْئْنَ']
         }
       }
     }
@@ -860,8 +871,8 @@ export const verbs = [
           muannats: ['تَرْجُو', 'تَرْجُوَانِ', 'يَرْجُوْنَ']
         },
         khitob: {
-          mudzakkar: ['تَرْجُو', 'تَرْجُوَانِ', 'تَرْجُوْنَ'],
-          muannats: ['تَرْجِيْنَ', 'تَرْجُوَانِ', 'تَرْجُوْنَ']
+          mudzakkar: ['تَرْجُو', 'تَرْجُوَانِ', 'تَرْجُونَ'],
+          muannats: ['تَرْجِيْنَ', 'تَرْجُوَانِ', 'تَرْجُونَ']
         },
         takallum: ['أَرْجُو', 'نَرْجُو']
       },
@@ -1024,7 +1035,7 @@ export const verbs = [
     id: 'saala',
     word: 'سَأَلَ',
     type: 'sahih',
-    subtype: 'mahmuz',
+    subtype: 'salim',
     meaning: 'bertanya',
     meaning_en: 'to ask',
     frequency: 80,
@@ -1163,6 +1174,153 @@ export const verbs = [
         khitob: {
           mudzakkar: ['رُدَّ', 'رُدَّا', 'رُدُّوْا'],
           muannats: ['رُدِّي', 'رُدَّا', 'اُرْدُدْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'fahima',
+    word: 'فَهِمَ',
+    type: 'sahih',
+    subtype: 'salim',
+    meaning: 'mengerti, memahami',
+    meaning_en: 'to understand',
+    frequency: 85,
+    examples: [
+      {
+        arabic: 'فَهِمَ الطَّالِبُ الدَّرْسَ',
+        translation: 'Siswa memahami pelajaran'
+      },
+      {
+        arabic: 'هَلْ فَهِمْتَ مَا قُلْتُ؟',
+        translation: 'Apakah kamu mengerti apa yang saya katakan?'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['فَهِمَ', 'فَهِمَا', 'فَهِمُوْا'],
+          muannats: ['فَهِمَتْ', 'فَهِمَتَا', 'فَهِمْنَ']
+        },
+        khitob: {
+          mudzakkar: ['فَهِمْتَ', 'فَهِمْتُمَا', 'فَهِمْتُمْ'],
+          muannats: ['فَهِمْتِ', 'فَهِمْتُمَا', 'فَهِمْتُنَّ']
+        },
+        takallum: ['فَهِمْتُ', 'فَهِمْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَفْهَمُ', 'يَفْهَمَانِ', 'يَفْهَمُوْنَ'],
+          muannats: ['تَفْهَمُ', 'تَفْهَمَانِ', 'يَفْهَمْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَفْهَمُ', 'تَفْهَمَانِ', 'تَفْهَمُوْنَ'],
+          muannats: ['تَفْهَمِيْنَ', 'تَفْهَمَانِ', 'تَفْهَمْنَ']
+        },
+        takallum: ['أَفْهَمُ', 'نَفْهَمُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اِفْهَمْ', 'اِفْهَمَا', 'اِفْهَمُوْا'],
+          muannats: ['اِفْهَمِي', 'اِفْهَمَا', 'اِفْهَمْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'waqafa',
+    word: 'وَقَفَ',
+    type: 'sahih',
+    subtype: 'salim',
+    meaning: 'berdiri',
+    meaning_en: 'to stand',
+    frequency: 80,
+    examples: [
+      {
+        arabic: 'وَقَفَ الطَّالِبُ أَمَامَ المُدَرِّسِ',
+        translation: 'Siswa berdiri di depan guru'
+      },
+      {
+        arabic: 'قِفْ هُنَا مِنْ فَضْلِكَ',
+        translation: 'Silakan berdiri di sini'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['وَقَفَ', 'وَقَفَا', 'وَقَفُوْا'],
+          muannats: ['وَقَفَتْ', 'وَقَفَتَا', 'وَقَفْنَ']
+        },
+        khitob: {
+          mudzakkar: ['وَقَفْتَ', 'وَقَفْتُمَا', 'وَقَفْتُمْ'],
+          muannats: ['وَقَفْتِ', 'وَقَفْتُمَا', 'وَقَفْتُنَّ']
+        },
+        takallum: ['وَقَفْتُ', 'وَقَفْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَقِفُ', 'يَقِفَانِ', 'يَقِفُوْنَ'],
+          muannats: ['تَقِفُ', 'تَقِفَانِ', 'يَقِفْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَقِفُ', 'تَقِفَانِ', 'تَقِفُوْنَ'],
+          muannats: ['تَقِفِيْنَ', 'تَقِفَانِ', 'تَقِفْنَ']
+        },
+        takallum: ['أَقِفُ', 'نَقِفُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['قِفْ', 'قِفَا', 'قِفُوْا'],
+          muannats: ['قِفِي', 'قِفَا', 'قِفْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'hamala',
+    word: 'حَمَلَ',
+    type: 'sahih',
+    subtype: 'salim',
+    meaning: 'membawa',
+    meaning_en: 'to carry',
+    frequency: 75,
+    examples: [
+      {
+        arabic: 'حَمَلَ الطَّالِبُ الحَقِيْبَةَ',
+        translation: 'Siswa membawa tas'
+      },
+      {
+        arabic: 'مَاذَا تَحْمِلُ فِي يَدِكَ؟',
+        translation: 'Apa yang kamu bawa di tanganmu?'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['حَمَلَ', 'حَمَلاَ', 'حَمَلُوْا'],
+          muannats: ['حَمَلَتْ', 'حَمَلَتَا', 'حَمَلْنَ']
+        },
+        khitob: {
+          mudzakkar: ['حَمَلْتَ', 'حَمَلْتُمَا', 'حَمَلْتُمْ'],
+          muannats: ['حَمَلْتِ', 'حَمَلْتُمَا', 'حَمَلْتُنَّ']
+        },
+        takallum: ['حَمَلْتُ', 'حَمَلْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَحْمِلُ', 'يَحْمِلاَنِ', 'يَحْمِلُوْنَ'],
+          muannats: ['تَحْمِلُ', 'تَحْمِلاَنِ', 'يَحْمِلْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَحْمِلُ', 'تَحْمِلاَنِ', 'تَحْمِلُوْنَ'],
+          muannats: ['تَحْمِلِيْنَ', 'تَحْمِلاَنِ', 'تَحْمِلْنَ']
+        },
+        takallum: ['أَحْمِلُ', 'نَحْمِلُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اِحْمِلْ', 'اِحْمِلاَ', 'اِحْمِلُوْا'],
+          muannats: ['اِحْمِلِي', 'اِحْمِلاَ', 'اِحْمِلْنَ']
         }
       }
     }
