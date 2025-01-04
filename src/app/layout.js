@@ -4,6 +4,12 @@ import "./globals.css";
 export default function RootLayout({ children }) {
   return (
     <html lang="ar">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className={`bg-[#383838] ${pressStart2P.className} flex flex-col min-h-screen`}>
         <main className="flex-grow">
           {children}

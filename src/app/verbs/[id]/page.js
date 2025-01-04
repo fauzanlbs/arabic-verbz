@@ -26,7 +26,7 @@ export default function VerbDetail() {
           {Array.isArray(forms) ? (
             <tr className="border-b border-[#FFD700]">
               <td className={`${pressStart2P.className} text-xs text-[#FFD700] capitalize p-2`}>-</td>
-              <td className={`${pressStart2P.className} text-[#FFFFFF] text-sm p-2`}>
+              <td className={`${pressStart2P.className} text-[#FFFFFF] text-md p-2`}>
                 {forms.join(', ')}
               </td>
             </tr>
@@ -34,7 +34,7 @@ export default function VerbDetail() {
             Object.entries(forms).map(([gender, words]) => (
               <tr key={gender} className="">
                 <td className={`${pressStart2P.className} text-xs text-[#FFD700] capitalize p-2`}>{gender}</td>
-                <td className={`${pressStart2P.className} text-[#FFFFFF] text-sm p-2`}>
+                <td className={`${pressStart2P.className} text-[#FFFFFF] text-md p-2`}>
                   {Array.isArray(words) && words.join(', ')}
                 </td>
               </tr>
@@ -73,7 +73,7 @@ export default function VerbDetail() {
         </Link>
 
         <div className="bg-[#706F6F] border-4 border-[#000000] p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
-          <div className={`${pressStart2P.className} text-4xl text-right mb-6 text-[#FFD700]`}>
+          <div className="text-6xl text-right mb-8 text-[#FFD700] font-arabic">
             {verb.word}
           </div>
           <div className={`${pressStart2P.className} mb-4 text-[#FFFFFF]`}>
@@ -89,7 +89,7 @@ export default function VerbDetail() {
             </h3>
             {verb.examples.map((example, index) => (
               <div key={index} className="mb-4">
-                <p className={`${pressStart2P.className} text-lg text-[#FFFFFF]`}>
+                <p className="text-3xl text-[#FFFFFF] font-arabic text-right leading-loose">
                   {example.arabic}
                 </p>
                 <p className={`${pressStart2P.className} text-sm text-[#90EE90]`}>

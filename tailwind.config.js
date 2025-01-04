@@ -3,7 +3,11 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        arabic: ['Noto Sans Arabic', 'Arial', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 } 
