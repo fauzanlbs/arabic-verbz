@@ -67,17 +67,17 @@ export default function Home() {
         </div>
 
         {/* Verb Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
           {filteredVerbs.map((verb) => (
             <Link key={verb.id} href={`/verbs/${verb.id}`}>
               <div className="bg-[#706F6F] border-4 border-[#000000] p-6 
                             shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] 
                             hover:translate-y-1 hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]
                             transition-all cursor-pointer flex flex-col items-end">
-                <div className="text-5xl text-right mb-4 text-[#FFD700] font-arabic">
+                <div className="text-4xl text-right mb-3 text-[#FFD700] font-arabic">
                   {verb.word}
                 </div>
-                <div className={`${pressStart2P.className} text-sm text-right`}>
+                <div className={`${pressStart2P.className} text-xs text-right`}>
                   <span className="text-[#FFFFFF]">{verb.meaning}</span>
                   <span className="text-[#FFFFFF]"> / </span>
                   <span className="text-[#90EE90]">{verb.meaning_en}</span>
