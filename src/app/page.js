@@ -7,8 +7,17 @@ import { useState } from 'react';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('mutal');
+  const [searchQuery, setSearchQuery] = useState('');
   
-  const filteredVerbs = verbs.filter(verb => verb.type === activeTab);
+  const filteredVerbs = verbs.filter(verb => {
+    const matchesTab = verb.type === activeTab;
+    const matchesSearch = searchQuery === '' || 
+      verb.word.includes(searchQuery) || 
+      verb.meaning.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      verb.meaning_en.toLowerCase().includes(searchQuery.toLowerCase());
+    
+    return matchesTab && matchesSearch;
+  });
 
   return (
     <div className="min-h-screen bg-[#383838] py-12">
@@ -17,8 +26,19 @@ export default function Home() {
           ARABIC VERBZ
         </h1>
         <h3 className={`${pressStart2P.className} text-center text-xl text-[#FFD700] mb-8`}>
-            (KAMUS KATA KERJA)
+          (KAMUS KATA KERJA)
         </h3>
+
+        {/* Search Input */}
+        <div className="flex justify-center mb-8">
+          <input
+            type="text"
+            placeholder="Cari kata kerja..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className={`${pressStart2P.className} w-full max-w-md px-4 py-2 bg-[#4A4A4A] text-[#FFD700] border-2 border-[#FFD700] rounded focus:outline-none focus:border-[#90EE90] placeholder-[#706F6F]`}
+          />
+        </div>
 
         {/* Tab Navigation */}
         <div className="flex justify-center mb-8">
