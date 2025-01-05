@@ -1618,5 +1618,250 @@ export const verbs = [
         }
       }
     }
+  },
+  {
+    id: 'dakhala',
+    word: 'دَخَلَ',
+    type: 'sahih',
+    subtype: 'salim',
+    meaning: 'masuk',
+    meaning_en: 'to enter',
+    frequency: 80,
+    examples: [
+      {
+        arabic: 'دَخَلَ الطَّالِبُ الفَصْلَ',
+        translation: 'Siswa masuk kelas'
+      },
+      {
+        arabic: 'دَخَلْتُ المَسْجِدَ',
+        translation: 'Saya masuk masjid'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['دَخَلَ', 'دَخَلاَ', 'دَخَلُوْا'],
+          muannats: ['دَخَلَتْ', 'دَخَلَتَا', 'دَخَلْنَ']
+        },
+        khitob: {
+          mudzakkar: ['دَخَلْتَ', 'دَخَلْتُمَا', 'دَخَلْتُمْ'],
+          muannats: ['دَخَلْتِ', 'دَخَلْتُمَا', 'دَخَلْتُنَّ']
+        },
+        takallum: ['دَخَلْتُ', 'دَخَلْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَدْخُلُ', 'يَدْخُلاَنِ', 'يَدْخُلُوْنَ'],
+          muannats: ['تَدْخُلُ', 'تَدْخُلاَنِ', 'يَدْخُلْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَدْخُلُ', 'تَدْخُلاَنِ', 'تَدْخُلُوْنَ'],
+          muannats: ['تَدْخُلِيْنَ', 'تَدْخُلاَنِ', 'تَدْخُلْنَ']
+        },
+        takallum: ['أَدْخُلُ', 'نَدْخُلُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اُدْخُلْ', 'اُدْخُلاَ', 'اُدْخُلُوْا'],
+          muannats: ['اُدْخُلِي', 'اُدْخُلاَ', 'اُدْخُلْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'dharaba',
+    word: 'ضَرَبَ',
+    type: 'sahih',
+    subtype: 'salim',
+    meaning: 'memukul',
+    meaning_en: 'to hit',
+    frequency: 75,
+    examples: [
+      {
+        arabic: 'ضَرَبَ اللهُ مَثَلاً',
+        translation: 'Allah membuat perumpamaan'
+      },
+      {
+        arabic: 'ضَرَبَ الوَلَدُ الكُرَةَ',
+        translation: 'Anak itu memukul bola'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['ضَرَبَ', 'ضَرَبَا', 'ضَرَبُوْا'],
+          muannats: ['ضَرَبَتْ', 'ضَرَبَتَا', 'ضَرَبْنَ']
+        },
+        khitob: {
+          mudzakkar: ['ضَرَبْتَ', 'ضَرَبْتُمَا', 'ضَرَبْتُمْ'],
+          muannats: ['ضَرَبْتِ', 'ضَرَبْتُمَا', 'ضَرَبْتُنَّ']
+        },
+        takallum: ['ضَرَبْتُ', 'ضَرَبْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَضْرِبُ', 'يَضْرِبَانِ', 'يَضْرِبُوْنَ'],
+          muannats: ['تَضْرِبُ', 'تَضْرِبَانِ', 'يَضْرِبْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَضْرِبُ', 'تَضْرِبَانِ', 'تَضْرِبُوْنَ'],
+          muannats: ['تَضْرِبِيْنَ', 'تَضْرِبَانِ', 'تَضْرِبْنَ']
+        },
+        takallum: ['أَضْرِبُ', 'نَضْرِبُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اِضْرِبْ', 'اِضْرِبَا', 'اِضْرِبُوْا'],
+          muannats: ['اِضْرِبِي', 'اِضْرِبَا', 'اِضْرِبْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'kharaja',
+    word: 'خَرَجَ',
+    type: 'sahih',
+    subtype: 'salim',
+    meaning: 'keluar',
+    meaning_en: 'to exit',
+    frequency: 80,
+    examples: [
+      {
+        arabic: 'خَرَجَ الطَّالِبُ مِنَ المَدْرَسَةِ',
+        translation: 'Siswa keluar dari sekolah'
+      },
+      {
+        arabic: 'خَرَجْتُ مِنَ البَيْتِ',
+        translation: 'Saya keluar dari rumah'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['خَرَجَ', 'خَرَجَا', 'خَرَجُوْا'],
+          muannats: ['خَرَجَتْ', 'خَرَجَتَا', 'خَرَجْنَ']
+        },
+        khitob: {
+          mudzakkar: ['خَرَجْتَ', 'خَرَجْتُمَا', 'خَرَجْتُمْ'],
+          muannats: ['خَرَجْتِ', 'خَرَجْتُمَا', 'خَرَجْتُنَّ']
+        },
+        takallum: ['خَرَجْتُ', 'خَرَجْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَخْرُجُ', 'يَخْرُجَانِ', 'يَخْرُجُوْنَ'],
+          muannats: ['تَخْرُجُ', 'تَخْرُجَانِ', 'يَخْرُجْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَخْرُجُ', 'تَخْرُجَانِ', 'تَخْرُجُوْنَ'],
+          muannats: ['تَخْرُجِيْنَ', 'تَخْرُجَانِ', 'تَخْرُجْنَ']
+        },
+        takallum: ['أَخْرُجُ', 'نَخْرُجُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اُخْرُجْ', 'اُخْرُجَا', 'اُخْرُجُوْا'],
+          muannats: ['اُخْرُجِي', 'اُخْرُجَا', 'اُخْرُجْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'sajada',
+    word: 'سَجَدَ',
+    type: 'sahih',
+    subtype: 'salim',
+    meaning: 'sujud',
+    meaning_en: 'to prostrate',
+    frequency: 75,
+    examples: [
+      {
+        arabic: 'سَجَدَ المُسْلِمُ لِلهِ',
+        translation: 'Muslim itu sujud kepada Allah'
+      },
+      {
+        arabic: 'سَجَدْنَا فِي الصَّلاَةِ',
+        translation: 'Kami sujud dalam shalat'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['سَجَدَ', 'سَجَدَا', 'سَجَدُوْا'],
+          muannats: ['سَجَدَتْ', 'سَجَدَتَا', 'سَجَدْنَ']
+        },
+        khitob: {
+          mudzakkar: ['سَجَدْتَ', 'سَجَدْتُمَا', 'سَجَدْتُمْ'],
+          muannats: ['سَجَدْتِ', 'سَجَدْتُمَا', 'سَجَدْتُنَّ']
+        },
+        takallum: ['سَجَدْتُ', 'سَجَدْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَسْجُدُ', 'يَسْجُدَانِ', 'يَسْجُدُوْنَ'],
+          muannats: ['تَسْجُدُ', 'تَسْجُدَانِ', 'يَسْجُدْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَسْجُدُ', 'تَسْجُدَانِ', 'تَسْجُدُوْنَ'],
+          muannats: ['تَسْجُدِيْنَ', 'تَسْجُدَانِ', 'تَسْجُدْنَ']
+        },
+        takallum: ['أَسْجُدُ', 'نَسْجُدُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اُسْجُدْ', 'اُسْجُدَا', 'اُسْجُدُوْا'],
+          muannats: ['اُسْجُدِي', 'اُسْجُدَا', 'اُسْجُدْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'adhina',
+    word: 'أَذِنَ',
+    type: 'sahih',
+    subtype: 'salim',
+    meaning: 'mengizinkan',
+    meaning_en: 'to permit',
+    frequency: 70,
+    examples: [
+      {
+        arabic: 'أَذِنَ المُدَرِّسُ لِلطَّالِبِ',
+        translation: 'Guru mengizinkan siswa'
+      },
+      {
+        arabic: 'أَذِنَ اللهُ لَنَا',
+        translation: 'Allah mengizinkan kita'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['أَذِنَ', 'أَذِنَا', 'أَذِنُوْا'],
+          muannats: ['أَذِنَتْ', 'أَذِنَتَا', 'أَذِنَّ']
+        },
+        khitob: {
+          mudzakkar: ['أَذِنْتَ', 'أَذِنْتُمَا', 'أَذِنْتُمْ'],
+          muannats: ['أَذِنْتِ', 'أَذِنْتُمَا', 'أَذِنْتُنَّ']
+        },
+        takallum: ['أَذِنْتُ', 'أَذِنَّا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَأْذَنُ', 'يَأْذَنَانِ', 'يَأْذَنُوْنَ'],
+          muannats: ['تَأْذَنُ', 'تَأْذَنَانِ', 'يَأْذَنَّ']
+        },
+        khitob: {
+          mudzakkar: ['تَأْذَنُ', 'تَأْذَنَانِ', 'تَأْذَنُوْنَ'],
+          muannats: ['تَأْذَنِيْنَ', 'تَأْذَنَانِ', 'تَأْذَنَّ']
+        },
+        takallum: ['آذَنُ', 'نَأْذَنُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اِئْذَنْ', 'اِئْذَنَا', 'اِئْذَنُوْا'],
+          muannats: ['اِئْذَنِي', 'اِئْذَنَا', 'اِئْذَنَّ']
+        }
+      }
+    }
   }
 ]; 
