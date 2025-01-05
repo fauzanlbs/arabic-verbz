@@ -13,9 +13,12 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#383838] py-12">
       <div className="container mx-auto px-4">
-        <h1 className={`${pressStart2P.className} text-center text-3xl text-[#FFD700] mb-8`}>
+        <h1 className={`${pressStart2P.className} text-center text-3xl text-[#FFD700] mb-4`}>
           ARABIC VERBZ
         </h1>
+        <h3 className={`${pressStart2P.className} text-center text-xl text-[#FFD700] mb-8`}>
+            (KAMUS KATA KERJA)
+        </h3>
 
         {/* Tab Navigation */}
         <div className="flex justify-center mb-8">
