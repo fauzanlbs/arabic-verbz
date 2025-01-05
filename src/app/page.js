@@ -60,9 +60,6 @@ export default function Home() {
                 <div className={`${pressStart2P.className} text-[#FFFFFF]`}>
                   <span className="text-[#90EE90]">ARTI:</span> {verb.meaning} / {verb.meaning_en}
                 </div>
-                <div className={`${pressStart2P.className} mt-2 text-[#90EE90] text-sm`}>
-                  Frekuensi: {verb.frequency}%
-                </div>
               </div>
             </Link>
           ))}

@@ -1324,5 +1324,299 @@ export const verbs = [
         }
       }
     }
+  },
+  {
+    id: 'khafa',
+    word: 'خَافَ',
+    type: 'mutal',
+    subtype: 'ajwaf_wawi',
+    meaning: 'takut',
+    meaning_en: 'to fear',
+    frequency: 75,
+    examples: [
+      {
+        arabic: 'خَافَ الطِّفْلُ مِنَ الظَّلاَمِ',
+        translation: 'Anak itu takut akan kegelapan'
+      },
+      {
+        arabic: 'لاَ تَخَفْ، أَنَا مَعَكَ',
+        translation: 'Jangan takut, saya bersamamu'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['خَافَ', 'خَافَا', 'خَافُوْا'],
+          muannats: ['خَافَتْ', 'خَافَتَا', 'خِفْنَ']
+        },
+        khitob: {
+          mudzakkar: ['خِفْتَ', 'خِفْتُمَا', 'خِفْتُمْ'],
+          muannats: ['خِفْتِ', 'خِفْتُمَا', 'خِفْتُنَّ']
+        },
+        takallum: ['خِفْتُ', 'خِفْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَخَافُ', 'يَخَافَانِ', 'يَخَافُوْنَ'],
+          muannats: ['تَخَافُ', 'تَخَافَانِ', 'يَخَفْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَخَافُ', 'تَخَافَانِ', 'تَخَافُوْنَ'],
+          muannats: ['تَخَافِيْنَ', 'تَخَافَانِ', 'تَخَفْنَ']
+        },
+        takallum: ['أَخَافُ', 'نَخَافُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['خَفْ', 'خَافَا', 'خَافُوْا'],
+          muannats: ['خَافِي', 'خَافَا', 'خَفْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'aasha',
+    word: 'عَاشَ',
+    type: 'mutal',
+    subtype: 'ajwaf_wawi',
+    meaning: 'hidup',
+    meaning_en: 'to live',
+    frequency: 80,
+    examples: [
+      {
+        arabic: 'عَاشَ فِي المَدِيْنَةِ',
+        translation: 'Dia hidup di kota'
+      },
+      {
+        arabic: 'عِشْتُ فِي هَذَا البَيْتِ عِشْرِيْنَ سَنَةً',
+        translation: 'Saya hidup di rumah ini selama 20 tahun'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['عَاشَ', 'عَاشَا', 'عَاشُوْا'],
+          muannats: ['عَاشَتْ', 'عَاشَتَا', 'عِشْنَ']
+        },
+        khitob: {
+          mudzakkar: ['عِشْتَ', 'عِشْتُمَا', 'عِشْتُمْ'],
+          muannats: ['عِشْتِ', 'عِشْتُمَا', 'عِشْتُنَّ']
+        },
+        takallum: ['عِشْتُ', 'عِشْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَعِيْشُ', 'يَعِيْشَانِ', 'يَعِيْشُوْنَ'],
+          muannats: ['تَعِيْشُ', 'تَعِيْشَانِ', 'يَعِشْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَعِيْشُ', 'تَعِيْشَانِ', 'تَعِيْشُوْنَ'],
+          muannats: ['تَعِيْشِيْنَ', 'تَعِيْشَانِ', 'تَعِشْنَ']
+        },
+        takallum: ['أَعِيْشُ', 'نَعِيْشُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['عِشْ', 'عِيْشَا', 'عِيْشُوْا'],
+          muannats: ['عِيْشِي', 'عِيْشَا', 'عِشْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'taba',
+    word: 'تَابَ',
+    type: 'mutal',
+    subtype: 'ajwaf_wawi',
+    meaning: 'bertaubat',
+    meaning_en: 'to repent',
+    frequency: 70,
+    examples: [
+      {
+        arabic: 'تَابَ إِلَى اللهِ',
+        translation: 'Dia bertaubat kepada Allah'
+      },
+      {
+        arabic: 'تُبْتُ مِنْ ذَنْبِي',
+        translation: 'Saya bertaubat dari dosa saya'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['تَابَ', 'تَابَا', 'تَابُوْا'],
+          muannats: ['تَابَتْ', 'تَابَتَا', 'تُبْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تُبْتَ', 'تُبْتُمَا', 'تُبْتُمْ'],
+          muannats: ['تُبْتِ', 'تُبْتُمَا', 'تُبْتُنَّ']
+        },
+        takallum: ['تُبْتُ', 'تُبْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَتُوْبُ', 'يَتُوْبَانِ', 'يَتُوْبُوْنَ'],
+          muannats: ['تَتُوْبُ', 'تَتُوْبَانِ', 'يَتُبْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَتُوْبُ', 'تَتُوْبَانِ', 'تَتُوْبُوْنَ'],
+          muannats: ['تَتُوْبِيْنَ', 'تَتُوْبَانِ', 'تَتُبْنَ']
+        },
+        takallum: ['أَتُوْبُ', 'نَتُوْبُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['تُبْ', 'تُوْبَا', 'تُوْبُوْا'],
+          muannats: ['تُوْبِي', 'تُوْبَا', 'تُبْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'qawiya',
+    word: 'قَوِيَ',
+    type: 'mutal',
+    subtype: 'naqish_yai',
+    meaning: 'menjadi kuat',
+    meaning_en: 'to become strong',
+    frequency: 70,
+    examples: [
+      {
+        arabic: 'قَوِيَ الرَّجُلُ بَعْدَ المَرَضِ',
+        translation: 'Pria itu menjadi kuat setelah sakit'
+      },
+      {
+        arabic: 'قَوِيَ الإِيْمَانُ فِي قَلْبِهِ',
+        translation: 'Iman menjadi kuat di hatinya'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['قَوِيَ', 'قَوِيَا', 'قَوُوْا'],
+          muannats: ['قَوِيَتْ', 'قَوِيَتَا', 'قَوِيْنَ']
+        },
+        khitob: {
+          mudzakkar: ['قَوِيْتَ', 'قَوِيْتُمَا', 'قَوِيْتُمْ'],
+          muannats: ['قَوِيْتِ', 'قَوِيْتُمَا', 'قَوِيْتُنَّ']
+        },
+        takallum: ['قَوِيْتُ', 'قَوِيْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَقْوَى', 'يَقْوَيَانِ', 'يَقْوَوْنَ'],
+          muannats: ['تَقْوَى', 'تَقْوَيَانِ', 'يَقْوَيْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَقْوَى', 'تَقْوَيَانِ', 'تَقْوَوْنَ'],
+          muannats: ['تَقْوَيْنَ', 'تَقْوَيَانِ', 'تَقْوَيْنَ']
+        },
+        takallum: ['أَقْوَى', 'نَقْوَى']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اِقْوَ', 'اِقْوَيَا', 'اِقْوَوْا'],
+          muannats: ['اِقْوَيْ', 'اِقْوَيَا', 'اِقْوَيْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'talaa',
+    word: 'تَلاَ',
+    type: 'mutal',
+    subtype: 'naqish_wawi',
+    meaning: 'membaca',
+    meaning_en: 'to recite',
+    frequency: 75,
+    examples: [
+      {
+        arabic: 'تَلاَ الطَّالِبُ القُرْآنَ',
+        translation: 'Siswa membaca Al-Quran'
+      },
+      {
+        arabic: 'تَلَوْتُ آيَاتِ اللهِ',
+        translation: 'Saya membaca ayat-ayat Allah'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['تَلاَ', 'تَلَوَا', 'تَلَوْا'],
+          muannats: ['تَلَتْ', 'تَلَتَا', 'تَلَوْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَلَوْتَ', 'تَلَوْتُمَا', 'تَلَوْتُمْ'],
+          muannats: ['تَلَوْتِ', 'تَلَوْتُمَا', 'تَلَوْتُنَّ']
+        },
+        takallum: ['تَلَوْتُ', 'تَلَوْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَتْلُو', 'يَتْلُوَانِ', 'يَتْلُوْنَ'],
+          muannats: ['تَتْلُو', 'تَتْلُوَانِ', 'يَتْلُوْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَتْلُو', 'تَتْلُوَانِ', 'تَتْلُوْنَ'],
+          muannats: ['تَتْلِيْنَ', 'تَتْلُوَانِ', 'تَتْلُوْنَ']
+        },
+        takallum: ['أَتْلُو', 'نَتْلُو']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اُتْلُ', 'اُتْلُوَا', 'اُتْلُوْا'],
+          muannats: ['اُتْلِي', 'اُتْلُوَا', 'اُتْلُوْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'ramaa',
+    word: 'رَمَى',
+    type: 'mutal',
+    subtype: 'naqish_yai',
+    meaning: 'melempar',
+    meaning_en: 'to throw',
+    frequency: 70,
+    examples: [
+      {
+        arabic: 'رَمَى الوَلَدُ الكُرَةَ',
+        translation: 'Anak itu melempar bola'
+      },
+      {
+        arabic: 'رَمَيْتُ الحَجَرَ',
+        translation: 'Saya melempar batu'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['رَمَى', 'رَمَيَا', 'رَمَوْا'],
+          muannats: ['رَمَتْ', 'رَمَتَا', 'رَمَيْنَ']
+        },
+        khitob: {
+          mudzakkar: ['رَمَيْتَ', 'رَمَيْتُمَا', 'رَمَيْتُمْ'],
+          muannats: ['رَمَيْتِ', 'رَمَيْتُمَا', 'رَمَيْتُنَّ']
+        },
+        takallum: ['رَمَيْتُ', 'رَمَيْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَرْمِي', 'يَرْمِيَانِ', 'يَرْمُوْنَ'],
+          muannats: ['تَرْمِي', 'تَرْمِيَانِ', 'يَرْمِيْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَرْمِي', 'تَرْمِيَانِ', 'تَرْمُوْنَ'],
+          muannats: ['تَرْمِيْنَ', 'تَرْمِيَانِ', 'تَرْمِيْنَ']
+        },
+        takallum: ['أَرْمِي', 'نَرْمِي']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اِرْمِ', 'اِرْمِيَا', 'اِرْمُوْا'],
+          muannats: ['اِرْمِي', 'اِرْمِيَا', 'اِرْمِيْنَ']
+        }
+      }
+    }
   }
 ]; 
