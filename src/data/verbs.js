@@ -7,7 +7,6 @@ export const verbs = [
     subtype: 'ajwaf_wawi',
     meaning: 'berkata',
     meaning_en: 'to say',
-    frequency: 95,
     examples: [
       {
         arabic: 'قَالَ المُدَرِّسُ: الدَّرْسُ سَهْلٌ',
@@ -56,7 +55,6 @@ export const verbs = [
     subtype: 'ajwaf_wawi',
     meaning: 'adalah, menjadi',
     meaning_en: 'to be',
-    frequency: 90,
     examples: [
       {
         arabic: 'كَانَ الجَوُّ حَارًّا',
@@ -105,7 +103,6 @@ export const verbs = [
     subtype: 'ajwaf_yai',
     meaning: 'menjual',
     meaning_en: 'to sell',
-    frequency: 85,
     examples: [
       {
         arabic: 'بَاعَ التَّاجِرُ السِّلْعَةَ',
@@ -154,7 +151,6 @@ export const verbs = [
     subtype: 'ajwaf_wawi',
     meaning: 'berjalan',
     meaning_en: 'to walk',
-    frequency: 80,
     examples: [
       {
         arabic: 'سَارَ الرَّجُلُ فِي الطَّرِيقِ',
@@ -203,7 +199,6 @@ export const verbs = [
     subtype: 'naqish_wawi',
     meaning: 'memanggil',
     meaning_en: 'to call',
-    frequency: 75,
     examples: [
       {
         arabic: 'دَعَا الوَلَدُ أُمَّهُ',
@@ -252,7 +247,6 @@ export const verbs = [
     subtype: 'naqish_yai',
     meaning: 'lupa',
     meaning_en: 'to forget',
-    frequency: 70,
     examples: [
       {
         arabic: 'نَسِيَ الطَّالِبُ الكِتَابَ',
@@ -303,7 +297,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'menulis',
     meaning_en: 'to write',
-    frequency: 85,
     examples: [
       {
         arabic: 'كَتَبَ الطَّالِبُ الوَاجِبَ',
@@ -352,7 +345,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'duduk',
     meaning_en: 'to sit',
-    frequency: 80,
     examples: [
       {
         arabic: 'جَلَسَ الطُّلاَّبُ فِي الفَصْلِ',
@@ -401,7 +393,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'makan',
     meaning_en: 'to eat',
-    frequency: 85,
     examples: [
       {
         arabic: 'أَكَلَ الوَلَدُ التُّفَّاحَةَ',
@@ -450,7 +441,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'minum',
     meaning_en: 'to drink',
-    frequency: 85,
     examples: [
       {
         arabic: 'شَرِبَ الوَلَدُ الحَلِيبَ',
@@ -499,7 +489,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'membuka',
     meaning_en: 'to open',
-    frequency: 65,
     examples: [
       {
         arabic: 'فَتَحَ الرَّجُلُ البَابَ',
@@ -548,7 +537,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'memukul',
     meaning_en: 'to hit',
-    frequency: 60,
     examples: [
       {
         arabic: 'ضَرَبَ الوَلَدُ الكُرَةَ',
@@ -597,7 +585,6 @@ export const verbs = [
     subtype: 'mitsal_wawi',
     meaning: 'sampai, tiba',
     meaning_en: 'to arrive',
-    frequency: 75,
     examples: [
       {
         arabic: 'وَصَلَ المُسَافِرُ إِلَى المَطَارِ',
@@ -646,7 +633,6 @@ export const verbs = [
     subtype: 'mitsal_wawi',
     meaning: 'meletakkan',
     meaning_en: 'to put',
-    frequency: 70,
     examples: [
       {
         arabic: 'وَضَعَ الكِتَابَ عَلَى المَكْتَبِ',
@@ -695,7 +681,6 @@ export const verbs = [
     subtype: 'mitsal_yai',
     meaning: 'mudah',
     meaning_en: 'to be easy',
-    frequency: 65,
     examples: [
       {
         arabic: 'يَسَرَ اللهُ الأَمْرَ',
@@ -744,7 +729,6 @@ export const verbs = [
     subtype: 'ajwaf_wawi',
     meaning: 'tidur',
     meaning_en: 'to sleep',
-    frequency: 75,
     examples: [
       {
         arabic: 'نَامَ الطِّفْلُ فِي السَّرِيْرِ',
@@ -793,7 +777,6 @@ export const verbs = [
     subtype: 'ajwaf_yai',
     meaning: 'datang',
     meaning_en: 'to come',
-    frequency: 85,
     examples: [
       {
         arabic: 'جَاءَ المُدَرِّسُ إِلَى الفَصْلِ',
@@ -842,7 +825,6 @@ export const verbs = [
     subtype: 'naqish_wawi',
     meaning: 'berharap',
     meaning_en: 'to hope',
-    frequency: 70,
     examples: [
       {
         arabic: 'رَجَا الطَّالِبُ النَّجَاحَ',
@@ -891,7 +873,6 @@ export const verbs = [
     subtype: 'naqish_yai',
     meaning: 'berjalan',
     meaning_en: 'to walk',
-    frequency: 75,
     examples: [
       {
         arabic: 'مَشَى الطِّفْلُ إِلَى المَدْرَسَةِ',
@@ -940,7 +921,6 @@ export const verbs = [
     subtype: 'naqish_yai',
     meaning: 'menangis',
     meaning_en: 'to cry',
-    frequency: 65,
     examples: [
       {
         arabic: 'بَكَى الطِّفْلُ مِنَ الأَلَمِ',
@@ -989,7 +969,6 @@ export const verbs = [
     subtype: 'mudoaf',
     meaning: 'memanjangkan',
     meaning_en: 'to extend',
-    frequency: 75,
     examples: [
       {
         arabic: 'مَدَّ الرَّجُلُ يَدَهُ',
@@ -1038,7 +1017,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'bertanya',
     meaning_en: 'to ask',
-    frequency: 80,
     examples: [
       {
         arabic: 'سَأَلَ الطَّالِبُ المُدَرِّسَ',
@@ -1087,7 +1065,6 @@ export const verbs = [
     subtype: 'mudoaf',
     meaning: 'menduga',
     meaning_en: 'to think, to assume',
-    frequency: 80,
     examples: [
       {
         arabic: 'ظَنَّ المُدَرِّسُ الطَّالِبَ نَاجِحًا',
@@ -1130,21 +1107,20 @@ export const verbs = [
     }
   },
   {
-    id: 'radda',
+    id: 'radda_reply',
     word: 'رَدَّ',
     type: 'sahih',
     subtype: 'mudoaf',
-    meaning: 'mengembalikan',
-    meaning_en: 'to return, to reply',
-    frequency: 75,
+    meaning: 'menjawab',
+    meaning_en: 'to reply',
     examples: [
       {
-        arabic: 'رَدَّ الطَّالِبُ الكِتَابَ إِلَى المَكْتَبَةِ',
-        translation: 'Siswa mengembalikan buku ke perpustakaan'
+        arabic: 'رَدَّ الطَّالِبُ عَلَى السُّؤَالِ',
+        translation: 'Siswa menjawab pertanyaan'
       },
       {
-        arabic: 'رَدَّ عَلَى السُّؤَالِ',
-        translation: 'Dia menjawab pertanyaan'
+        arabic: 'لَمْ يَرُدَّ عَلَى رِسَالَتِي',
+        translation: 'Dia tidak menjawab pesanku'
       }
     ],
     tasrif: {
@@ -1185,7 +1161,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'mengerti, memahami',
     meaning_en: 'to understand',
-    frequency: 85,
     examples: [
       {
         arabic: 'فَهِمَ الطَّالِبُ الدَّرْسَ',
@@ -1234,7 +1209,6 @@ export const verbs = [
     subtype: 'mitsal_wawi',
     meaning: 'berdiri',
     meaning_en: 'to stand',
-    frequency: 80,
     examples: [
       {
         arabic: 'وَقَفَ الطَّالِبُ أَمَامَ المُدَرِّسِ',
@@ -1283,7 +1257,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'membawa',
     meaning_en: 'to carry',
-    frequency: 75,
     examples: [
       {
         arabic: 'حَمَلَ الطَّالِبُ الحَقِيْبَةَ',
@@ -1332,7 +1305,6 @@ export const verbs = [
     subtype: 'ajwaf_wawi',
     meaning: 'takut',
     meaning_en: 'to fear',
-    frequency: 75,
     examples: [
       {
         arabic: 'خَافَ الطِّفْلُ مِنَ الظَّلاَمِ',
@@ -1381,7 +1353,6 @@ export const verbs = [
     subtype: 'ajwaf_wawi',
     meaning: 'hidup',
     meaning_en: 'to live',
-    frequency: 80,
     examples: [
       {
         arabic: 'عَاشَ فِي المَدِيْنَةِ',
@@ -1430,7 +1401,6 @@ export const verbs = [
     subtype: 'ajwaf_wawi',
     meaning: 'bertaubat',
     meaning_en: 'to repent',
-    frequency: 70,
     examples: [
       {
         arabic: 'تَابَ إِلَى اللهِ',
@@ -1479,7 +1449,6 @@ export const verbs = [
     subtype: 'naqish_yai',
     meaning: 'menjadi kuat',
     meaning_en: 'to become strong',
-    frequency: 70,
     examples: [
       {
         arabic: 'قَوِيَ الرَّجُلُ بَعْدَ المَرَضِ',
@@ -1528,7 +1497,6 @@ export const verbs = [
     subtype: 'naqish_wawi',
     meaning: 'membaca',
     meaning_en: 'to recite',
-    frequency: 75,
     examples: [
       {
         arabic: 'تَلاَ الطَّالِبُ القُرْآنَ',
@@ -1577,7 +1545,6 @@ export const verbs = [
     subtype: 'naqish_yai',
     meaning: 'melempar',
     meaning_en: 'to throw',
-    frequency: 70,
     examples: [
       {
         arabic: 'رَمَى الوَلَدُ الكُرَةَ',
@@ -1626,7 +1593,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'masuk',
     meaning_en: 'to enter',
-    frequency: 80,
     examples: [
       {
         arabic: 'دَخَلَ الطَّالِبُ الفَصْلَ',
@@ -1675,7 +1641,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'memukul',
     meaning_en: 'to hit',
-    frequency: 75,
     examples: [
       {
         arabic: 'ضَرَبَ اللهُ مَثَلاً',
@@ -1724,7 +1689,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'keluar',
     meaning_en: 'to exit',
-    frequency: 80,
     examples: [
       {
         arabic: 'خَرَجَ الطَّالِبُ مِنَ المَدْرَسَةِ',
@@ -1773,7 +1737,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'sujud',
     meaning_en: 'to prostrate',
-    frequency: 75,
     examples: [
       {
         arabic: 'سَجَدَ المُسْلِمُ لِلهِ',
@@ -1822,7 +1785,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'mengizinkan',
     meaning_en: 'to permit',
-    frequency: 70,
     examples: [
       {
         arabic: 'أَذِنَ المُدَرِّسُ لِلطَّالِبِ',
@@ -1871,7 +1833,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'tertawa',
     meaning_en: 'to laugh',
-    frequency: 70,
     examples: [
       {
         arabic: 'ضَحِكَ الطِّفْلُ كَثِيْرًا',
@@ -1920,7 +1881,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'membantu',
     meaning_en: 'to help',
-    frequency: 75,
     examples: [
       {
         arabic: 'سَاعَدَ الرَّجُلُ جَارَهُ',
@@ -1969,7 +1929,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'merasa',
     meaning_en: 'to feel',
-    frequency: 80,
     examples: [
       {
         arabic: 'شَعَرَ بِالأَلَمِ',
@@ -2018,7 +1977,6 @@ export const verbs = [
     subtype: 'mitsal_wawi',
     meaning: 'sampai',
     meaning_en: 'to arrive',
-    frequency: 75,
     examples: [
       {
         arabic: 'وَصَلَ المُسَافِرُ إِلَى المَطَارِ',
@@ -2067,7 +2025,6 @@ export const verbs = [
     subtype: 'naqish_yai',
     meaning: 'selesai',
     meaning_en: 'to finish',
-    frequency: 75,
     examples: [
       {
         arabic: 'اِنْتَهَى الدَّرْسُ',
@@ -2116,7 +2073,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'mencoba',
     meaning_en: 'to try',
-    frequency: 75,
     examples: [
       {
         arabic: 'حَاوَلَ الطَّالِبُ حَلَّ المَسْأَلَةِ',
@@ -2165,7 +2121,6 @@ export const verbs = [
     subtype: 'mitsal_wawi',
     meaning: 'menemukan',
     meaning_en: 'to find',
-    frequency: 85,
     examples: [
       {
         arabic: 'وَجَدَ الطَّالِبُ كِتَابَهُ',
@@ -2214,7 +2169,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'mencari',
     meaning_en: 'to search',
-    frequency: 80,
     examples: [
       {
         arabic: 'بَحَثَ الطَّالِبُ عَنِ المَعْلُوْمَاتِ',
@@ -2263,7 +2217,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'memindahkan',
     meaning_en: 'to move, to transfer',
-    frequency: 75,
     examples: [
       {
         arabic: 'نَقَلَ الرَّجُلُ الأَثَاثَ إِلَى البَيْتِ الجَدِيْدِ',
@@ -2312,7 +2265,6 @@ export const verbs = [
     subtype: 'naqish_yai',
     meaning: 'memberi',
     meaning_en: 'to give',
-    frequency: 85,
     examples: [
       {
         arabic: 'أَعْطَى المُدَرِّسُ الكِتَابَ لِلطَّالِبِ',
@@ -2361,7 +2313,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'mengambil',
     meaning_en: 'to take',
-    frequency: 85,
     examples: [
       {
         arabic: 'أَخَذَ الطَّالِبُ الكِتَابَ مِنَ المَكْتَبَةِ',
@@ -2410,7 +2361,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'menggunakan',
     meaning_en: 'to use',
-    frequency: 85,
     examples: [
       {
         arabic: 'اِسْتَخْدَمَ الطَّالِبُ القَلَمَ',
@@ -2459,7 +2409,6 @@ export const verbs = [
     subtype: 'mudoaf',
     meaning: 'mengubah',
     meaning_en: 'to change',
-    frequency: 80,
     examples: [
       {
         arabic: 'غَيَّرَ الرَّجُلُ مَلاَبِسَهُ',
@@ -2508,7 +2457,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'meminta',
     meaning_en: 'to request',
-    frequency: 85,
     examples: [
       {
         arabic: 'طَلَبَ الطَّالِبُ المُسَاعَدَةَ',
@@ -2557,7 +2505,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'bertemu',
     meaning_en: 'to meet',
-    frequency: 80,
     examples: [
       {
         arabic: 'قَابَلَ الطَّالِبُ المُدَرِّسَ',
@@ -2606,7 +2553,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'menghubungi',
     meaning_en: 'to contact',
-    frequency: 80,
     examples: [
       {
         arabic: 'اِتَّصَلَ الرَّجُلُ بِصَدِيْقِهِ',
@@ -2655,7 +2601,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'menaiki',
     meaning_en: 'to ride',
-    frequency: 75,
     examples: [
       {
         arabic: 'رَكِبَ الطَّالِبُ الحَافِلَةَ',
@@ -2704,7 +2649,6 @@ export const verbs = [
     subtype: 'mudoaf',
     meaning: 'membersihkan',
     meaning_en: 'to clean',
-    frequency: 75,
     examples: [
       {
         arabic: 'نَظَّفَ الْعَامِلُ الْمَكْتَبَ',
@@ -2753,7 +2697,6 @@ export const verbs = [
     subtype: 'ajwaf_wawi',
     meaning: 'mampu',
     meaning_en: 'to be able',
-    frequency: 85,
     examples: [
       {
         arabic: 'اِسْتَطَاعَ الطَّالِبُ حَلَّ المَسْأَلَةِ',
@@ -2802,7 +2745,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'mengizinkan',
     meaning_en: 'to permit',
-    frequency: 80,
     examples: [
       {
         arabic: 'سَمَحَ المُدِيرُ لِلمُوَظَّفِ بِالخُرُوجِ',
@@ -2851,7 +2793,6 @@ export const verbs = [
     subtype: 'mitsal_wawi',
     meaning: 'menyetujui',
     meaning_en: 'to agree',
-    frequency: 80,
     examples: [
       {
         arabic: 'وَافَقَ المُدِيرُ عَلَى الطَّلَبِ',
@@ -2900,7 +2841,6 @@ export const verbs = [
     subtype: 'salim',
     meaning: 'menolak',
     meaning_en: 'to refuse',
-    frequency: 80,
     examples: [
       {
         arabic: 'رَفَضَ المُدِيرُ الطَّلَبَ',
@@ -2938,6 +2878,342 @@ export const verbs = [
         khitob: {
           mudzakkar: ['اُرْفُضْ', 'اُرْفُضَا', 'اُرْفُضُوْا'],
           muannats: ['اُرْفُضِي', 'اُرْفُضَا', 'اُرْفُضْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'aslaha',
+    word: 'أَصْلَحَ',
+    type: 'sahih',
+    subtype: 'salim',
+    meaning: 'memperbaiki',
+    meaning_en: 'to fix',
+    examples: [
+      {
+        arabic: 'أَصْلَحَ المِيكَانِيكِيُّ السَّيَّارَةَ',
+        translation: 'Mekanik memperbaiki mobil'
+      },
+      {
+        arabic: 'هَلْ أَصْلَحْتَ الحَاسُوبَ؟',
+        translation: 'Apakah kamu sudah memperbaiki komputer?'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['أَصْلَحَ', 'أَصْلَحَا', 'أَصْلَحُوْا'],
+          muannats: ['أَصْلَحَتْ', 'أَصْلَحَتَا', 'أَصْلَحْنَ']
+        },
+        khitob: {
+          mudzakkar: ['أَصْلَحْتَ', 'أَصْلَحْتُمَا', 'أَصْلَحْتُمْ'],
+          muannats: ['أَصْلَحْتِ', 'أَصْلَحْتُمَا', 'أَصْلَحْتُنَّ']
+        },
+        takallum: ['أَصْلَحْتُ', 'أَصْلَحْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يُصْلِحُ', 'يُصْلِحَانِ', 'يُصْلِحُوْنَ'],
+          muannats: ['تُصْلِحُ', 'تُصْلِحَانِ', 'يُصْلِحْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تُصْلِحُ', 'تُصْلِحَانِ', 'تُصْلِحُوْنَ'],
+          muannats: ['تُصْلِحِيْنَ', 'تُصْلِحَانِ', 'تُصْلِحْنَ']
+        },
+        takallum: ['أُصْلِحُ', 'نُصْلِحُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['أَصْلِحْ', 'أَصْلِحَا', 'أَصْلِحُوْا'],
+          muannats: ['أَصْلِحِي', 'أَصْلِحَا', 'أَصْلِحْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'ikhtalafa',
+    word: 'اِخْتَلَفَ',
+    type: 'sahih',
+    subtype: 'salim',
+    meaning: 'berbeda',
+    meaning_en: 'to differ',
+    examples: [
+      {
+        arabic: 'اِخْتَلَفَ الطَّالِبَانِ فِي الرَّأْيِ',
+        translation: 'Kedua siswa berbeda pendapat'
+      },
+      {
+        arabic: 'لِمَاذَا تَخْتَلِفُ مَعَهُ؟',
+        translation: 'Kenapa kamu berbeda pendapat dengannya?'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['اِخْتَلَفَ', 'اِخْتَلَفَا', 'اِخْتَلَفُوْا'],
+          muannats: ['اِخْتَلَفَتْ', 'اِخْتَلَفَتَا', 'اِخْتَلَفْنَ']
+        },
+        khitob: {
+          mudzakkar: ['اِخْتَلَفْتَ', 'اِخْتَلَفْتُمَا', 'اِخْتَلَفْتُمْ'],
+          muannats: ['اِخْتَلَفْتِ', 'اِخْتَلَفْتُمَا', 'اِخْتَلَفْتُنَّ']
+        },
+        takallum: ['اِخْتَلَفْتُ', 'اِخْتَلَفْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَخْتَلِفُ', 'يَخْتَلِفَانِ', 'يَخْتَلِفُوْنَ'],
+          muannats: ['تَخْتَلِفُ', 'تَخْتَلِفَانِ', 'يَخْتَلِفْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَخْتَلِفُ', 'تَخْتَلِفَانِ', 'تَخْتَلِفُوْنَ'],
+          muannats: ['تَخْتَلِفِيْنَ', 'تَخْتَلِفَانِ', 'تَخْتَلِفْنَ']
+        },
+        takallum: ['أَخْتَلِفُ', 'نَخْتَلِفُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اِخْتَلِفْ', 'اِخْتَلِفَا', 'اِخْتَلِفُوْا'],
+          muannats: ['اِخْتَلِفِي', 'اِخْتَلِفَا', 'اِخْتَلِفْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'ghadhiba',
+    word: 'غَضِبَ',
+    type: 'sahih',
+    subtype: 'salim',
+    meaning: 'marah',
+    meaning_en: 'to be angry',
+    examples: [
+      {
+        arabic: 'غَضِبَ الأَبُ مِنْ وَلَدِهِ',
+        translation: 'Ayah marah kepada anaknya'
+      },
+      {
+        arabic: 'لِمَاذَا تَغْضَبُ؟',
+        translation: 'Kenapa kamu marah?'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['غَضِبَ', 'غَضِبَا', 'غَضِبُوْا'],
+          muannats: ['غَضِبَتْ', 'غَضِبَتَا', 'غَضِبْنَ']
+        },
+        khitob: {
+          mudzakkar: ['غَضِبْتَ', 'غَضِبْتُمَا', 'غَضِبْتُمْ'],
+          muannats: ['غَضِبْتِ', 'غَضِبْتُمَا', 'غَضِبْتُنَّ']
+        },
+        takallum: ['غَضِبْتُ', 'غَضِبْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَغْضَبُ', 'يَغْضَبَانِ', 'يَغْضَبُوْنَ'],
+          muannats: ['تَغْضَبُ', 'تَغْضَبَانِ', 'يَغْضَبْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَغْضَبُ', 'تَغْضَبَانِ', 'تَغْضَبُوْنَ'],
+          muannats: ['تَغْضَبِيْنَ', 'تَغْضَبَانِ', 'تَغْضَبْنَ']
+        },
+        takallum: ['أَغْضَبُ', 'نَغْضَبُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اِغْضَبْ', 'اِغْضَبَا', 'اِغْضَبُوْا'],
+          muannats: ['اِغْضَبِي', 'اِغْضَبَا', 'اِغْضَبْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'hazina',
+    word: 'حَزِنَ',
+    type: 'sahih',
+    subtype: 'salim',
+    meaning: 'sedih',
+    meaning_en: 'to be sad',
+    examples: [
+      {
+        arabic: 'حَزِنَ الوَلَدُ عَلَى فِرَاقِ صَدِيْقِهِ',
+        translation: 'Anak itu sedih karena berpisah dengan temannya'
+      },
+      {
+        arabic: 'لاَ تَحْزَنْ!',
+        translation: 'Jangan bersedih!'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['حَزِنَ', 'حَزِنَا', 'حَزِنُوْا'],
+          muannats: ['حَزِنَتْ', 'حَزِنَتَا', 'حَزِنَّ']
+        },
+        khitob: {
+          mudzakkar: ['حَزِنْتَ', 'حَزِنْتُمَا', 'حَزِنْتُمْ'],
+          muannats: ['حَزِنْتِ', 'حَزِنْتُمَا', 'حَزِنْتُنَّ']
+        },
+        takallum: ['حَزِنْتُ', 'حَزِنَّا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَحْزَنُ', 'يَحْزَنَانِ', 'يَحْزَنُوْنَ'],
+          muannats: ['تَحْزَنُ', 'تَحْزَنَانِ', 'يَحْزَنَّ']
+        },
+        khitob: {
+          mudzakkar: ['تَحْزَنُ', 'تَحْزَنَانِ', 'تَحْزَنُوْنَ'],
+          muannats: ['تَحْزَنِيْنَ', 'تَحْزَنَانِ', 'تَحْزَنَّ']
+        },
+        takallum: ['أَحْزَنُ', 'نَحْزَنُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['اِحْزَنْ', 'اِحْزَنَا', 'اِحْزَنُوْا'],
+          muannats: ['اِحْزَنِي', 'اِحْزَنَا', 'اِحْزَنَّ']
+        }
+      }
+    }
+  },
+  {
+    id: 'qarrara',
+    word: 'قَرَّرَ',
+    type: 'sahih',
+    subtype: 'mudoaf',
+    meaning: 'memutuskan',
+    meaning_en: 'to decide',
+    examples: [
+      {
+        arabic: 'قَرَّرَ المُدِيرُ إِغْلاَقَ الشَّرِكَةِ',
+        translation: 'Direktur memutuskan untuk menutup perusahaan'
+      },
+      {
+        arabic: 'مَاذَا قَرَّرْتَ؟',
+        translation: 'Apa yang kamu putuskan?'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['قَرَّرَ', 'قَرَّرَا', 'قَرَّرُوْا'],
+          muannats: ['قَرَّرَتْ', 'قَرَّرَتَا', 'قَرَّرْنَ']
+        },
+        khitob: {
+          mudzakkar: ['قَرَّرْتَ', 'قَرَّرْتُمَا', 'قَرَّرْتُمْ'],
+          muannats: ['قَرَّرْتِ', 'قَرَّرْتُمَا', 'قَرَّرْتُنَّ']
+        },
+        takallum: ['قَرَّرْتُ', 'قَرَّرْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يُقَرِّرُ', 'يُقَرِّرَانِ', 'يُقَرِّرُوْنَ'],
+          muannats: ['تُقَرِّرُ', 'تُقَرِّرَانِ', 'يُقَرِّرْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تُقَرِّرُ', 'تُقَرِّرَانِ', 'تُقَرِّرُوْنَ'],
+          muannats: ['تُقَرِّرِيْنَ', 'تُقَرِّرَانِ', 'تُقَرِّرْنَ']
+        },
+        takallum: ['أُقَرِّرُ', 'نُقَرِّرُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['قَرِّرْ', 'قَرِّرَا', 'قَرِّرُوْا'],
+          muannats: ['قَرِّرِي', 'قَرِّرَا', 'قَرِّرْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'tawaqqafa',
+    word: 'تَوَقَّفَ',
+    type: 'mutal',
+    subtype: 'mitsal_wawi',
+    meaning: 'berhenti',
+    meaning_en: 'to stop',
+    examples: [
+      {
+        arabic: 'تَوَقَّفَتِ السَّيَّارَةُ',
+        translation: 'Mobil itu berhenti'
+      },
+      {
+        arabic: 'لِمَاذَا تَوَقَّفْتَ عَنِ العَمَلِ؟',
+        translation: 'Kenapa kamu berhenti bekerja?'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['تَوَقَّفَ', 'تَوَقَّفَا', 'تَوَقَّفُوْا'],
+          muannats: ['تَوَقَّفَتْ', 'تَوَقَّفَتَا', 'تَوَقَّفْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَوَقَّفْتَ', 'تَوَقَّفْتُمَا', 'تَوَقَّفْتُمْ'],
+          muannats: ['تَوَقَّفْتِ', 'تَوَقَّفْتُمَا', 'تَوَقَّفْتُنَّ']
+        },
+        takallum: ['تَوَقَّفْتُ', 'تَوَقَّفْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَتَوَقَّفُ', 'يَتَوَقَّفَانِ', 'يَتَوَقَّفُوْنَ'],
+          muannats: ['تَتَوَقَّفُ', 'تَتَوَقَّفَانِ', 'يَتَوَقَّفْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَتَوَقَّفُ', 'تَتَوَقَّفَانِ', 'تَتَوَقَّفُوْنَ'],
+          muannats: ['تَتَوَقَّفِيْنَ', 'تَتَوَقَّفَانِ', 'تَتَوَقَّفْنَ']
+        },
+        takallum: ['أَتَوَقَّفُ', 'نَتَوَقَّفُ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['تَوَقَّفْ', 'تَوَقَّفَا', 'تَوَقَّفُوْا'],
+          muannats: ['تَوَقَّفِي', 'تَوَقَّفَا', 'تَوَقَّفْنَ']
+        }
+      }
+    }
+  },
+  {
+    id: 'radda_return',
+    word: 'رَدَّ',
+    type: 'sahih',
+    subtype: 'mudoaf',
+    meaning: 'mengembalikan',
+    meaning_en: 'to return',
+    examples: [
+      {
+        arabic: 'رَدَّ الطَّالِبُ عَلَى السُّؤَالِ',
+        translation: 'Siswa menjawab pertanyaan'
+      },
+      {
+        arabic: 'لَمْ يَرُدَّ عَلَى رِسَالَتِي',
+        translation: 'Dia tidak menjawab pesanku'
+      }
+    ],
+    tasrif: {
+      madhi: {
+        ghoib: {
+          mudzakkar: ['رَدَّ', 'رَدَّا', 'رَدُّوْا'],
+          muannats: ['رَدَّتْ', 'رَدَّتَا', 'رَدَدْنَ']
+        },
+        khitob: {
+          mudzakkar: ['رَدَدْتَ', 'رَدَدْتُمَا', 'رَدَدْتُمْ'],
+          muannats: ['رَدَدْتِ', 'رَدَدْتُمَا', 'رَدَدْتُنَّ']
+        },
+        takallum: ['رَدَدْتُ', 'رَدَدْنَا']
+      },
+      mudhari: {
+        ghoib: {
+          mudzakkar: ['يَرُدُّ', 'يَرُدَّانِ', 'يَرُدُّوْنَ'],
+          muannats: ['تَرُدُّ', 'تَرُدَّانِ', 'يَرْدُدْنَ']
+        },
+        khitob: {
+          mudzakkar: ['تَرُدُّ', 'تَرُدَّانِ', 'تَرُدُّوْنَ'],
+          muannats: ['تَرُدِّيْنَ', 'تَرُدَّانِ', 'تَرْدُدْنَ']
+        },
+        takallum: ['أَرُدُّ', 'نَرُدُّ']
+      },
+      amr: {
+        khitob: {
+          mudzakkar: ['رُدَّ', 'رُدَّا', 'رُدُّوْا'],
+          muannats: ['رُدِّي', 'رُدَّا', 'اُرْدُدْنَ']
         }
       }
     }
